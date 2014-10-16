@@ -1,0 +1,124 @@
+@CHARSET "utf-8";
+
+    /* 4. Div�S�̂��N���b�N�ł���悤�ɂ��� */
+    .sampleBox{background: #ffc;padding:10px;cursor: pointer}
+
+
+/* 5. �e�[�u���̋����E��̍s�̐F��ς��� */
+    table{background: #666}
+    tr{background: #fff}
+    td{padding: 5px}
+    .odd{background: #ddd }
+
+
+/* 7. CSS�n�b�N���g�킸�u���E�U�[���Ƃ�CSS��ύX */
+    .browserBox{padding: 10px}
+
+
+
+/* 8. �摜�̃v�����[�_�[ */
+    .imgBox{background:url(http://webcreatorbox.com/sample/images/loading.gif) 50% 50% no-repeat;}
+
+
+
+/* 9. IE6���[�U�[�Ƀ��b�Z�[�W��\�� */
+    .error{background:#ff6699;padding: 20px;text-align:center;}
+
+
+
+/* 10. Div������ */
+    .deleteBox{border: #ccc 1px solid; padding: 10px}
+        .deleteBox .delete{cursor: pointer; color: #3cf; margin-top:10px;}
+
+
+
+/* 11. �t�H�[�J�X���Ă���t�H�[���̃��x���ɃN���X������ */
+    .labelfocus{color:#f39 }
+
+
+
+/* 12. �t�H�[���Ƀe�L�X�g����Ă����A�t�H�[�J�X�ŏ����i�����F���ύX�j*/
+    .focus{color: #969696}
+
+
+/* 14. ���W�I�{�^���ƃ`�F�b�N�{�b�N�X�𑕏�� */
+.checkbox,.radio{
+    z-index: -1;
+    position: absolute;
+    }
+    .CheckBoxLabelClass{
+        background: #fff url("http://www.webcreatorbox.com/sample/images/checkbox.png") no-repeat 2px 0;
+        margin-right:20px;
+        padding-left:22px;
+        }
+
+    .radiolabel{
+        background: #fff url("http://www.webcreatorbox.com/sample/images/radio.png") no-repeat 2px 0;
+        margin-right:20px;
+        padding-left:22px;
+        }
+
+.LabelSelected,.RadioSelected{
+    background-position: 2px bottom;
+    }
+
+
+
+/* 15. �X���C�h�p�l�� */
+    .open{
+        background: #fc6;
+        color: #fff;
+        cursor: pointer;
+        width:45px;
+        padding: 10px
+        }
+    #slideBox{
+        padding: 10px;
+        border: 1px #ccc solid;
+        display:none;
+        }
+
+
+/* 16. �A�R�[�f�B�I�� */
+    #accordion{
+        border: 1px #ccc solid;
+        border-top:none;
+        width:450px;
+        }
+    #accordion dt{
+        background: #ddd;
+        padding: 10px;
+        border-top: 1px #ccc solid;
+        }
+        #accordion dt a{color: #000; text-decoration:none;display:block;}
+    #accordion dd{padding: 10px}
+
+
+
+/* 17. �c�[���`�b�v */
+    .tooltip {margin: 100px 0 0;list-style: none}
+    .tooltip li {
+        margin: 0 10px;
+        float: left;
+        position: relative;
+        text-align:center;
+        }
+    .tooltip a {
+        padding: 14px 10px;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        width:200px;
+        }
+    .tooltip li span {
+        background: #ffc;
+        border: 1px solid #fc6;
+        height: 45px;
+        position: absolute;
+        top: -85px;
+        left: 0;
+        text-align: center;
+        padding: 20px 12px 10px;
+        z-index: 2;
+        display: none;
+        }
