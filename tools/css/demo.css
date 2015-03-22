@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+body {
+    font-size: 13px;
+}
+div#demo-container {
+    margin: 0 auto;
+    width: 800px;
+}
+div#main {
+    float: right;
+    width: 650px;
+}
+div#sidebar {
+    float: left;
+    position: fixed;
+    width: 150px;
+}
+div.demo-block {
+    width: 48%;
+    background-color: #eaf4fc;
+    border: 1px solid #0095d9;
+    margin: 5px;
+    height: 300px;
+    overflow-y: auto;
+}
+div.demo-block-src {
+    background-color: #ccc;
+    border: 1px solid #888;
+    display: none;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ui-menu {
+    font-size: 1.1em;
+    width: 130px;
+}
