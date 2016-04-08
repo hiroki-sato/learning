@@ -1,0 +1,10 @@
+development: &development
+  adapter: postgresql
+  database: furikaeri_development
+  encoding: utf8
+test:
+  <<: *development
+  database: furikaeri_test
+production:
+  <<: *development
+  database: furikaeri_production
